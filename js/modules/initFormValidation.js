@@ -90,7 +90,7 @@ export default function initFormValidation() {
                 try {
                     localStorage.setItem("userData", JSON.stringify(formData));
                 } catch (error) {
-                    console.error("Erro ao salvar no localStorage", error);
+                    alert("Erro ao salvar no localStorage", error);
                 }
             }
         });
