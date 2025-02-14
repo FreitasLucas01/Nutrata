@@ -9,21 +9,21 @@ export default function initBannerCarousel() {
 
         const banners = [
             { 
-                image: "/assets/img/banner-home-zero.png", 
+                image: "/assets/img/banner-home-zero.webp", 
                 title: "Whey ZERO LACTOSE", 
                 description: "Whey Zero Lactose da Nutrata é um suplemento proteico de alta qualidade, especialmente formulado para pessoas intolerantes à lactose ou que desejam reduzir o consumo desse carboidrato na dieta.",
                 textColor: "#1C1C1C", 
                 buttonColor: "#1C1C1C"
             },
             { 
-                image: "/assets/img/banner-home-grego.png", 
+                image: "/assets/img/banner-home-grego.webp", 
                 title: "Whey GREGO", 
                 description: "WHEY GREGO é um produto inovador que traz mais sabor e prazer ao seu dia-a-dia, combinando teor nutricional e cremosidade para você que não abre mão de tudo isso em suas refeições!",
                 textColor: "#FFF", 
                 buttonColor: "blue"
             },
             { 
-                image: "/assets/img/banner-home-havanna.png", 
+                image: "/assets/img/banner-home-havanna.webp", 
                 title: "WHEY HAVANNA", 
                 description: "Feito com doce de leite, zero glúten e em edição limitada, o WHEY GREGO HAVANNA combina qualidade e sabor irresistível.",
                 textColor: "#1C1C1C", 

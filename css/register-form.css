@@ -70,7 +70,7 @@
         text-align: center;
         width: initial;
         height: 110vh;
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     .register-title{
@@ -81,6 +81,7 @@
 }
 
 @media(max-width: 693px) {
+
     .register-title{
         max-width: 9ch;
     }
