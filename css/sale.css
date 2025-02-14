@@ -138,5 +138,58 @@
 }
 
 @media(max-width: 600px){
+    #sale{
+        padding: 25px;
+        margin-top: 120px;
+    }
 
+    .sale-info-container{
+        padding: 0px 15px;
+        margin-top: 40px;
+    }
+
+    .sale-title{
+        font-size: 30px;
+    }
+
+    .sale-subtitle{
+        font-size: 20px;
+    }
+
+    .sale-img{
+        margin-top: 30px;
+    }
+
+    .sale-timer-text{
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .sale-timer-bg{
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .sale-timer{
+        font-size: 16px;
+    }
+
+    .sale-timer-btn{
+        max-width: 200px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .sale-timer-info-container{
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .sale-timer-info.minutes{
+        margin-right: 40px;
+        margin-left: 0px;
+    }
 }
