@@ -47,7 +47,7 @@
     }
 }
 
-@media(max-width: 970px){
+@media(max-width: 973px){
     .header-nav-list li:not(:last-child) {
         display: none;
     }
