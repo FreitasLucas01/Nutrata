@@ -77,6 +77,7 @@
     display: flex;
     justify-content: space-between;
     margin-inline: auto;
+    padding: 0 25px;
 }
 
 .banner-home-companies img{
@@ -90,7 +91,7 @@
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 930px) {
     .banner-home-title{
         font-size: 50px;
         margin-bottom: 60px;
@@ -115,6 +116,14 @@
         background-position: 0% center; 
         min-height: 85vh;
     }
+
+    .banner-home-companies{
+        padding: 0 15px;
+    }
+
+    .banner-home-companies img{
+        width: 100px;
+    }
 }
 
 @media(max-width: 700px) {
@@ -124,8 +133,9 @@
     }
 
     .banner-home-info{
-        padding-top: 50px;
-        padding-right: 50px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
         text-align: center;
     }
 
@@ -136,6 +146,12 @@
     .banner-arrows-container{
         gap: 125px;
         bottom: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+    .banner-home-companies img{
+        width: 60px;
     }
 }
 
