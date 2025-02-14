@@ -68,6 +68,10 @@
     margin-top: 55px;
 }
 
+.banner-form-icons img {
+    width: 70px;
+}
+
 .banner-form-icons.mobile{
     display: none;
 }
@@ -118,6 +122,6 @@
     }
 
     .banner-form-icons.mobile img{
-        width: 50px;
+        width: 60px;
     }
 }
