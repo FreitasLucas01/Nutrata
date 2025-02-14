@@ -29,6 +29,7 @@
     font-size: 24px;
     font-weight: 500;
     color: #FFF;
+    margin-bottom: 20px;
 }
 
 .sale-timer-text{
@@ -86,6 +87,14 @@
 
 .sale-timer-info-container{
     display: flex;
-    gap: 65px;
     margin-top: 5px;
+}
+
+.sale-timer-info.minutes{
+    margin-right: 65px;
+    margin-left: 20px;
+}
+
+.sale-img{
+    width: 100%;
 }

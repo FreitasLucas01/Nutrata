@@ -2,7 +2,7 @@ export default function initTimmer() {
     function startCountdown() {
         const timerElements = document.querySelectorAll(".sale-timer-bg p");
 
-        if (timerElements.length < 4) return; // Garante que há números suficientes
+        if (timerElements.length < 4) return;
 
         let minutes = parseInt(timerElements[0].textContent + timerElements[1].textContent, 10);
         let seconds = parseInt(timerElements[2].textContent + timerElements[3].textContent, 10);
@@ -19,7 +19,7 @@ export default function initTimmer() {
 
         function countdown() {
             if (minutes === 0 && seconds === 0) {
-                minutes = 60; // Reinicia para 60 minutos
+                minutes = 60; 
                 seconds = 0;
             } else {
                 if (seconds === 0) {
