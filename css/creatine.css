@@ -1,5 +1,5 @@
 #creatine{
-    padding: 0 50px;
+    padding: 0 15px;
 }
 
 .creatine-container{
@@ -101,12 +101,12 @@
 
 @media(max-width: 700px) {
     #creatine{
-        padding: 0 25px;
+        padding: 0 15px;
     }
 
     .creatine-list li{
         font-size: 14px;
-        padding: 15px;
+        padding: 25px;
     }
 
     .creatine-list li img{

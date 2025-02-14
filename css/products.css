@@ -1,3 +1,7 @@
+#products{
+    padding: 0 15px;
+}
+
 .products-info{
     margin-top: 150px;
     text-align: center;
@@ -47,4 +51,40 @@
 
 .products-card-text p {
     max-width: 15ch;
+}
+
+@media(max-width: 800px) {
+    .products-card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .products-card{
+        border-radius: 18px;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+    .products-subtitle{
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 600px) {
+    .products-title{
+        font-size: 30px;
+    }
+
+    .products-subtitle{
+        font-size: 14px;
+        margin-top: 25px;
+        white-space: wrap;
+    }
+    
+    .products-info{
+        margin-top: 70px;
+        text-align: center;
+    }
 }

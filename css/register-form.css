@@ -10,7 +10,7 @@
     text-align: center;
     width: 50%;
     background: #CCCCCC;
-    padding: 0 25px;
+    padding: 0 15px;
 }
 
 .register-logo-container{
@@ -70,7 +70,7 @@
         text-align: center;
         width: initial;
         height: 110vh;
-        padding: 0 25px;
+        padding: 0 15px;
     }
 
     .register-title{
