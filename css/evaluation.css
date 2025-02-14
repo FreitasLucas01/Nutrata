@@ -1,3 +1,7 @@
+#evaluation{
+    padding: 0 25px;
+}
+
 .evaluation-info{
     margin-top: 150px;
     text-align: center;
@@ -72,10 +76,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     margin-top: 30px;
 }
 
 .evaluation-arrows-container img{
     cursor: pointer;
+}
+
+@media(max-width: 500px){
+    .evaluation-info{
+        margin-top: 120px;
+    }
 }
