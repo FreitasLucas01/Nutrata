@@ -82,3 +82,63 @@
 .banner-home-companies img{
     width: 210px;
 }
+
+@media(max-width: 1330px) {
+    .banner-home-info{
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+}
+
+@media(max-width: 900px) {
+    .banner-home-title{
+        font-size: 50px;
+        margin-bottom: 60px;
+        max-width: initial;
+    }
+
+    .banner-home-info{
+        padding-top: 120px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .banner-home-description{
+        font-size: 30px;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .banner-home-container{
+        background: url("/assets/img/banner-home-havanna.png") no-repeat center center;
+        background-size: cover;
+        background-position: 0% center; /* Move o background mais para a direita */
+        min-height: 85vh;
+    }
+}
+
+@media(max-width: 700px) {
+    .banner-home-title{
+        margin-bottom: 30px;
+        max-width: initial;
+    }
+
+    .banner-home-description{
+        font-size: 20px;
+    }
+
+    .banner-home-info{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner-arrows-container{
+        gap: 125px;
+    }
+}
+
+@media(max-width: 350px) {
+    .banner-home-title{
+        font-size: 35px;
+    }
+}
