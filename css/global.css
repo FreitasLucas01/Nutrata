@@ -2,6 +2,16 @@ body {
     font-family: "Inter", "Unbounded", sans-serif;
     margin: 0;
   }
+
+body.hide-content #header,
+body.hide-content #banner-home,
+body.hide-content #creatine,
+body.hide-content #products,
+body.hide-content .evaluation,
+body.hide-content #sale,
+body.hide-content #footer {
+    display: none;
+}
   
   ul,
   li,
