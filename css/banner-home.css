@@ -112,7 +112,7 @@
     .banner-home-container{
         background: url("/assets/img/banner-home-havanna.png") no-repeat center center;
         background-size: cover;
-        background-position: 0% center; /* Move o background mais para a direita */
+        background-position: 0% center; 
         min-height: 85vh;
     }
 }
@@ -135,7 +135,7 @@
 
     .banner-arrows-container{
         gap: 125px;
-        bottom: 70px;
+        bottom: 60px;
     }
 }
 
