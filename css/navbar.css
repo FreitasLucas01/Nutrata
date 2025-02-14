@@ -1,10 +1,9 @@
-#header{
+/* #header{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90px;
-    padding: 0 25px;
     position: fixed;
     background: #FFF;
 }
@@ -29,7 +28,7 @@
     font-family: "Unbounded", sans-serif;
     font-weight: 500;
     gap: 10px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .header-nav{
@@ -70,5 +69,132 @@
         border-radius: 20px;
         padding: 10px 12px;
         background: blue;
+    }
+} */
+
+
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: fixed;
+    background: #FFF;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-nutrata-home {
+    width: 124px;
+}
+
+.header-nav {
+    width: 100%;
+    max-width: 1430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 500;
+    gap: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+#user-name {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: #FFF;
+    white-space: nowrap;
+}
+
+#btnMenu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#btnMenu div {
+    width: 32px;
+    height: 2px;
+    background: #141414;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 973px) {
+    body.ativo {
+        overflow-y: hidden;
+    }
+
+    .header {
+        padding: 10px 20px;
+    }
+
+    #btnMenu {
+        display: block;
+    }
+
+    .header-nav-list {
+        display: block;
+        position: fixed;
+        width: 100vw;
+        top: 98px;
+        right: -100vw;
+        height: calc(100vh - 58px);
+        background: #F5F5F5;
+        transform: translateX(100%);
+        z-index: 1000;
+        transition: 0.5s;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header-nav.ativo li{
+        margin: 0 25px;
+    }
+
+    .header-nav-list a {
+        display: block;
+        font-size: 1.5rem;
+        padding: 16px 0;
+        margin: 0 20px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .header-nav.ativo .header-nav-list {
+        transform: translateX(0);
+        right: 0;
+    }
+
+    .header-nav.ativo .linha1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .header-nav.ativo .linha2 {
+        opacity: 0;
+    }
+
+    .header-nav.ativo .linha3 {
+        transform: rotate(45deg) translate(-2px, -4px);
+    }
+}
+
+@media (max-width: 400px) {
+    .header-nav-list a {
+        font-size: 1rem;
+    }
+    
+    #user-name{
+        font-size: 13px;
     }
 }
