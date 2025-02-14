@@ -127,14 +127,9 @@
         font-size: 20px;
     }
 
-    .banner-home-info{
-        padding-top: 80px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .banner-arrows-container{
         gap: 125px;
+        bottom: 70px;
     }
 }
 
