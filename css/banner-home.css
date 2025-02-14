@@ -56,9 +56,26 @@
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
 }
 
 .banner-home-arrow{
     width: 50px;
     cursor: pointer;
+}
+
+.banner-home-companies-container{
+    background: #E9E9E9;
+}
+
+.banner-home-companies{
+    max-width: 1400px;
+    height: 302px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.banner-home-companies img{
+    width: 210px;
 }

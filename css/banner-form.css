@@ -4,6 +4,7 @@
     height: 100vh;
     width: 50%;
     padding: 0 65px;
+    z-index: 100;
 }
 
 .banner-form-logo{

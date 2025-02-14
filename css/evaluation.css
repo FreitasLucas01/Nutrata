@@ -1,0 +1,65 @@
+.evaluation-info{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.evaluation-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: 40px;
+    color: #2D2D2D;
+}
+
+.evaluation-subtitle{
+    font-size: 19px;
+    color: #2D2D2D;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.evaluation-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 50px;
+}
+
+.evaluation-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #E5F4F2;
+    width: 100%;
+    max-width: 510px;
+    border-radius: 30px;
+    padding: 45px;
+}
+
+.evaluation-card img{
+    max-width: 84px;
+    margin-bottom: 25px;
+}
+
+.evaluation-card h3{
+    font-size: 32px;
+    margin-bottom: 45px;
+    color: #1C1C1C;
+}
+
+.evaluation-card p{
+    font-size: 18px;
+    color: #2D2D2D;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.evaluation-rating{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evaluation-rating img{
+    max-width: 36px;
+}

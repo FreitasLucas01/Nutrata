@@ -1,0 +1,54 @@
+.creatine-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+
+.creatine-img{
+    width: 620px;
+}
+
+.creatine-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.creatine-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: 40px;
+    color: #2D2D2D;
+    max-width: 25ch;
+    margin-bottom: 25px;
+}
+
+.creatine-subtitle{
+    font-size: 19px;
+    color: #2D2D2D;
+    font-weight: 300;
+    max-width: 60ch;
+}
+
+.creatine-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 680px;
+    gap: 26px;
+    margin-top: 65px;
+}
+
+.creatine-list li{
+    font-family: "Unbounded", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    font-size: 20px;
+    border: 2px solid #E5EBF4;
+    border-radius: 26px;
+    padding: 25px;
+}
+
+.creatine-list li img{
+    width: 61px;
+}

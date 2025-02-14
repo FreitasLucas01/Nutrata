@@ -1,0 +1,50 @@
+.products-info{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.products-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: 40px;
+    color: #1C1C1C;
+}
+
+.products-subtitle{
+    font-family: "Unbounded", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #1C1C1C;
+    margin-top: 25px;
+}
+
+.products-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.products-card{
+    border-radius: 18px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.products-card img{
+    width: 400px;
+}
+
+.products-card-text{
+    font-family: "Unbounded", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background: #FAF7F8;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-card-text p {
+    max-width: 15ch;
+}
