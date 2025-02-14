@@ -3,7 +3,7 @@
 }
 
 .banner-home-container{
-    background: url("/assets/img/banner-home-havanna.png") no-repeat center center;
+    background: url("/assets/img/banner-home-havanna.webp") no-repeat center center;
     background-size: cover;
     min-height: 85vh;
 }
@@ -111,7 +111,7 @@
     }
 
     .banner-home-container{
-        background: url("/assets/img/banner-home-havanna.png") no-repeat center center;
+        background: url("/assets/img/banner-home-havanna.webp") no-repeat center center;
         background-size: cover;
         background-position: 0% center; 
         min-height: 85vh;
