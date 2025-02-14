@@ -1,0 +1,123 @@
+.banner-form-container{
+    background-color: #1B1B1B;
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    padding: 0 65px;
+}
+
+.banner-form-logo{
+    padding-top: 31px;
+    margin-bottom: 37px;
+}
+
+.logo-nutrata-form{
+    width: 118px;
+    height: 32px;
+}
+
+.banner-form{
+    width: 438px;
+    margin-inline: auto;
+}
+
+.banner-form-text{
+    margin-top: 48px;
+}
+
+.banner-form-title{
+    max-width: 21ch;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFF;
+    margin-inline: auto;
+}
+
+.banner-form-cupom{
+    background-color: #FFE27C;
+    color: #1B1B1B;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.banner-form-subtitle{
+    color: #FFF;
+    font-weight: 300;
+    margin-top: 24px;
+    line-height: 29px;
+    max-width: 47ch;
+    margin-inline: auto;
+}
+
+.banner-form-line{
+    height: 1px;
+    background: #484746;
+    margin-top: 48px;
+}
+
+.banner-form-footer{
+    font-size: 12px;
+    color: #BABABA;
+    margin-top: 25px;
+}
+
+.banner-form-icons{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 55px;
+}
+
+.banner-form-icons.mobile{
+    display: none;
+}
+
+.banner-form-title.mobile{
+    display: none;
+    color: #1B1B1B;
+}
+
+@media(max-width: 920px) {
+    .banner-form-container{
+        display: none;
+    }
+
+    .banner-form-icons.mobile{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .banner-form-title.mobile{
+        display: block;
+        color: #1B1B1B;
+    }
+
+    .banner-form-title span.mobile{
+        display: inline-block;
+    }
+
+    .banner-form-cupom.mobile{
+        display: block;
+        color: #1B1B1B;
+    }
+
+    .banner-form-text.mobile{
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 460px){
+    .banner-form-title.mobile{
+        font-size: 22px;
+    }
+
+    .banner-form-icons.mobile{
+        display: flex;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .banner-form-icons.mobile img{
+        width: 50px;
+    }
+}

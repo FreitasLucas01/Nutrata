@@ -1,0 +1,97 @@
+.promo-section{
+    display: flex;
+    width: 100%;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    background: #CCCCCC;
+    padding: 0 25px;
+}
+
+.register-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: #1E1E1E;
+    width: 300px;
+    height: 41px;
+    border-radius: 12px;
+    padding: 0 14px;
+    margin-inline: auto;
+}
+
+.register-logo-text{
+    font-size: 13px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.register-title{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #1B1B1B;
+    margin-top: 60px;
+}
+
+.register-subtitle{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #1B1B1B;
+}
+
+@media(max-width: 1432px) {
+    .register-title{
+        max-width: 9ch;
+        margin-inline: auto;
+    }
+}
+
+@media(max-width: 920px) {
+    .promo-section{
+        display: block;
+        width: 100%;
+    }
+
+    .register-logo-container{
+        display: none;
+    }
+
+    .register-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        width: initial;
+        height: 110vh;
+        padding: 0 25px;
+    }
+
+    .register-title{
+        max-width: initial;
+        margin-inline: auto;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 693px) {
+    .register-title{
+        max-width: 9ch;
+    }
+}
+
+@media(max-width: 460px) {
+    .register-title{
+        font-size: 36px;
+    }
+
+    .register-subtitle{
+        font-size: 16px;
+    }
+}

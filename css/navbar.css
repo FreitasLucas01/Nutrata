@@ -1,0 +1,39 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 0 25px;
+}
+
+#user-name{
+    border-radius: 20px;
+    padding: 20px 25px;
+    background: blue;
+    color: #FFF;
+    white-space: nowrap;
+}
+
+.logo-nutrata-home{
+    width: 124px;
+}
+
+.header-nav,
+.header-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 500;
+}
+
+.header-nav{
+    width: 100%;
+    max-width: 1430px;
+    justify-content: space-between;
+}
+
+.header-nav-list{
+    font-size: 16px;
+    gap: 69px;
+}

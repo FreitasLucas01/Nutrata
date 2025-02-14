@@ -1,0 +1,64 @@
+.banner-home-container{
+    background: url("/assets/img/banner-home-zero.png") no-repeat center center;
+    background-size: cover;
+    min-height: 85vh;
+}
+
+.banner-home-info{
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+.banner-home-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: 101px;
+    color: #1C1C1C;
+    max-width: 8ch;
+}
+
+.banner-home-list{
+    font-family: "Titillium Web", serif;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1C1C1C;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.banner-home-list li::before{
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 8px;
+    height: 8px;
+    background-color: #1C1C1C;
+}
+
+.banner-home-btn{
+    font-family: "Unbounded", sans-serif;
+    background: #1C1C1C;
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 22px;
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.banner-arrows-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    gap: 55px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-home-arrow{
+    width: 50px;
+    cursor: pointer;
+}
