@@ -123,6 +123,12 @@
         max-width: initial;
     }
 
+    .banner-home-info{
+        padding-top: 70px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
     .banner-home-description{
         font-size: 20px;
     }
