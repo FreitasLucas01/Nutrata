@@ -96,5 +96,47 @@
 }
 
 .sale-img{
-    width: 100%;
+    min-width: 921px;
+}
+
+@media(max-width: 1520px){
+    .sale-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sale-img{
+        min-width: initial;
+        margin-top: 50px;
+    }
+
+    .sale-timer-info-container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .sale-info-container{
+        padding: 0px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .sale-timer{
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+}
+
+@media(max-width: 600px){
+
 }

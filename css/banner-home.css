@@ -118,6 +118,7 @@
     }
 
     .banner-home-companies{
+        height: 150px;
         padding: 0 15px;
     }
 
@@ -150,6 +151,10 @@
 }
 
 @media(max-width: 500px) {
+    .banner-home-companies{
+        height: 100px;
+    }
+
     .banner-home-companies img{
         width: 60px;
     }
