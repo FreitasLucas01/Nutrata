@@ -85,6 +85,10 @@
 }
 
 @media(max-width: 500px){
+    .evaluation-title{
+        font-size: 30px;
+    }
+
     .evaluation-info{
         margin-top: 120px;
     }
