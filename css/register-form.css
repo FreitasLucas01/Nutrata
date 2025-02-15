@@ -96,3 +96,10 @@
         font-size: 16px;
     }
 }
+
+@media(max-width: 400px) {
+    .register-container{
+        background: #CCCCCC;
+        height: 135vh;
+    }
+}
