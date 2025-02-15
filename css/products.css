@@ -35,6 +35,7 @@
 
 .products-card img{
     width: 400px;
+    cursor: pointer;
 }
 
 .products-card-text{
